@@ -1,8 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const path = require('path');
-const generatePage = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
@@ -22,7 +21,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "email",
+    name: "questions",
     message: "What is your email address?",
   },
   {
@@ -55,35 +54,30 @@ const questions = [
     type: "input",
     name: "installation",
     message: "Installation instructions for your project: ",
+    default: "npm i"
   },
   {
     type: "input",
     name: "usage",
-    message: "What is the usage of this repo? ",
+    message: "Where do we run this repo? ",
   },
-  {
-    type: "input",
-    name: "contributors",
-    message: "Contribution Who are the contributors for this project: ",
-  },
-  {
-    type: "input",
-    name: "test",
-    message: "Test instructions for your project: ",
-    default: "npm test"
-  },
-  {
-    type: "list",
-    name: "license",
-    message: "What license does your project have?",
-    choices: ["MIT", "APACHE2.0", "Boost1.0", "GPL3.0", "BSD2" ,"BSD3", "None"]
+{
+  type: "list",
+  name: "license",
+  message: "What license does your project have?",
+  choices: ["MIT", "APACHE2.0", "Boost1.0", "GPL3.0", "BSD2" ,"BSD3", "None"]
 },
 {
   type: "input",
-  name: "dependencies",
-  message: "Any dependencies to install?",
-  default: "npm i"
-}
+  name: "contributing",
+  message: "Who contributed to this repository? "
+},
+{
+  type: "input",
+  name: "test",
+  message: "Test instructions for your project: ",
+  default: "npm test"
+},
 ];
 
 // TODO: Create a function to write README file
@@ -96,7 +90,7 @@ function userInput() {
   inquirer.prompt(questions)
     .then((answers) => {
       console.log("Page updating");
-      writeReadMe("./dist/README.md", generatePage())
+      writeReadMe("./dist/README.md", generateMarkdown({...answers}))
     })
 }
 
