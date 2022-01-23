@@ -1,14 +1,14 @@
 
 
   ## Project Title
-  Weather-Dashbpard 
-  ![GitHub license](https://img.shields.io/badge/license-GPL3.0-brightgreen)
+  read me
+  
 
   ## Github URL 
-  https://github.com/Irvensd
+  https://github.com/irvensd
   
   ## Description 
-  Used a fetch call to call a weather API to bring weather updates for cities
+  fsfd
 
   ## Table of Content 
   * [Installation](#installation)
@@ -17,22 +17,22 @@
   * [Questions](#questions)
 
   ## Installation
-  npm i 
+  dfd
 
   # Usage
-  In the terminal 
+  dfd
 
   ## License
-  GPL3.0
+  None
 
   ## Contributing 
   Irvens Dupuy
 
   ## Tests
-  npm test 
+  npm test
 
   ## Questions
-  Email: dupuyirvens@yahoo.com	
+  Email: irvensdupuy@yahoo.com
 
-  Github: https://github.com/Irvensd
+  Github: https://github.com/irvensd
 
