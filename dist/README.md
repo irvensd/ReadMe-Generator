@@ -1,14 +1,14 @@
 
 
   ## Project Title
-  read me
-  
+  ReadMe-Generator
+  ![GitHub license](https://img.shields.io/badge/license-Boost1.0-brightgreen)
 
   ## Github URL 
   https://github.com/irvensd
   
   ## Description 
-  fsfd
+  Node Js tool in order to generate a ReadMe for individuals repositories. 
 
   ## Table of Content 
   * [Installation](#installation)
@@ -17,13 +17,13 @@
   * [Questions](#questions)
 
   ## Installation
-  dfd
+  npm i 
 
   # Usage
-  dfd
+  In the terminal 
 
   ## License
-  None
+  Boost1.0
 
   ## Contributing 
   Irvens Dupuy
