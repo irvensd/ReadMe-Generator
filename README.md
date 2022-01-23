@@ -27,6 +27,11 @@ A Node.js tool where users can use to generate read me for their repo projects.
 
 ## Screenshots 
 
+![alt text](https://github.com/irvensd/ReadMe-Generator/blob/main/assets/img/questions.png)
+![alt text](https://github.com/irvensd/ReadMe-Generator/blob/main/assets/img/read-me.png)
+![alt text](https://github.com/irvensd/ReadMe-Generator/blob/main/assets/img/read-me-final.png)
+
+
 
 ## Technologies Use: 
 - Node.js
