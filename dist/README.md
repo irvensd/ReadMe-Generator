@@ -2,13 +2,13 @@
 
   ## Project Title
   ReadMe-Generator
-  ![GitHub license](https://img.shields.io/badge/license-Boost1.0-brightgreen)
+  ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-brightgreen)
 
   ## Github URL 
   https://github.com/irvensd
   
   ## Description 
-  Node Js tool in order to generate a ReadMe for individuals repositories. 
+  Node js app to generate a professional ReadMe
 
   ## Table of Content 
   * [Installation](#installation)
@@ -23,7 +23,7 @@
   In the terminal 
 
   ## License
-  Boost1.0
+  APACHE2.0
 
   ## Contributing 
   Irvens Dupuy

@@ -5,7 +5,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
-const questions = [
+const userQuestions = [
   {
     type: 'input',
     name: 'github',
@@ -87,7 +87,7 @@ function writeReadMe(fileName, data) {
 
 // TODO: Create a function to initialize app
 function userInput() {
-  inquirer.prompt(questions)
+  inquirer.prompt(userQuestions)
     .then((answers) => {
       console.log("Page updating");
       writeReadMe("./dist/README.md", generateMarkdown({...answers}))

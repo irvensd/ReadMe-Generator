@@ -2,6 +2,9 @@
 
 Github: https://github.com/irvensd/ReadMe-Generator
 
+## Walkthrough Video 
+https://drive.google.com/file/d/1EMbarEDqsTTw1QVXBfFCSwYqWrDSA_G1/view
+
 ## Description: 
 A Node.js tool where users can use to generate read me for their repo projects.
 
@@ -21,6 +24,8 @@ A Node.js tool where users can use to generate read me for their repo projects.
 - Users will be asked if there's a test to run
 - Users need to provide the usage of the project
 - Last but not least, list the contributors
+
+## Screenshots 
 
 
 ## Technologies Use: 
